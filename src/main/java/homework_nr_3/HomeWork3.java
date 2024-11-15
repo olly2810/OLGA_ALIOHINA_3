@@ -43,7 +43,13 @@ public class HomeWork3 {
             case 12:
                 System.out.println("December");
                 break;
-
         }
+        for (int i = 100; i <= 1000; i+=5){
+            System.out.println(i);
+        }
+
+
+
     }
+
     }
