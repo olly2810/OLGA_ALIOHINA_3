@@ -42,11 +42,24 @@ public class HomeWork3 {
                 break;
             case 12:
                 System.out.println("December");
-                break;
+            default:
+                System.out.println("Enter number from 1 to 12");;
         }
+
+
         for (int i = 100; i <= 1000; i+=5){
             System.out.println(i);
         }
+
+        float sum = 0;
+        for (int c =1; c <= 97; c +=2){
+            int z = c + 2;
+            System.out.println("verification - " + c + "/" + z);
+            sum = sum + (float) c / z;
+            System.out.println(sum);
+        }
+
+
 
 
 
