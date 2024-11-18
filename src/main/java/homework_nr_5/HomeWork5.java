@@ -6,7 +6,10 @@ public class HomeWork5 {
         for(int i = 0; i < 101; i++) {
             numbers[i] = i;
             System.out.println(numbers[i]);
-
+        }
+        int sum = 0;
+        for(int i = 0; i < numbers.length; i+=2);{
+            System.out.println("verification -" );
         }
     };
 }
