@@ -8,9 +8,15 @@ public class HomeWork5 {
             System.out.println(numbers[i]);
         }
         int sum = 0;
-        for(int i = 0; i < numbers.length; i+=2);{
-            System.out.println("verification -" );
+        for(int i = 2; i < numbers.length; i +=2){
+            System.out.println("even numbers -" + i );
+            sum += i;
+            System.out.println(sum);
+
+
+        }
+
+
         }
     };
-}
 
