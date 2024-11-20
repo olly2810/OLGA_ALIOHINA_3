@@ -21,6 +21,12 @@ public class HomeWork5 {
             derivative = i * (i+2);
             System.out.println(derivative);
         };
+        int [] copyNumbers = new int [numbers.length];
+        for(int i = 0; i < numbers.length; i++) {
+            copyNumbers[i] = i;
+            System.out.println(copyNumbers[i]);
+
+        }
 
 
 
