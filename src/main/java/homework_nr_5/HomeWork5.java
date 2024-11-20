@@ -14,7 +14,6 @@ public class HomeWork5 {
             System.out.println(sum);
 
 
-
         }
         float derivative = 0;
         for(float i = 1; i < numbers.length; i +=2){
@@ -22,6 +21,9 @@ public class HomeWork5 {
             derivative = i * (i+2);
             System.out.println(derivative);
         };
+
+
+
 
 
         }
