@@ -20,7 +20,7 @@ public class HomeWork5 {
             System.out.println("odd numbers -" + i );
             derivative = i * (i+2);
             System.out.println(derivative);
-        };
+        }
         int [] copyNumbers = new int [numbers.length];
         for(int i = 0; i < numbers.length; i++) {
             copyNumbers[i] = i;
@@ -33,5 +33,5 @@ public class HomeWork5 {
 
 
         }
-    };
+    }
 
