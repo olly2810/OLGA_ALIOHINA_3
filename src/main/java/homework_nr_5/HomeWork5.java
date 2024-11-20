@@ -14,7 +14,14 @@ public class HomeWork5 {
             System.out.println(sum);
 
 
+
         }
+        float derivative = 0;
+        for(float i = 1; i < numbers.length; i +=2){
+            System.out.println("odd numbers -" + i );
+            derivative = i * (i+2);
+            System.out.println(derivative);
+        };
 
 
         }
